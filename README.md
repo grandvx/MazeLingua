@@ -27,7 +27,7 @@ MazeLingua leverages gamification in a maze environment to support learning in m
 To run this project, you will need to have **Unity Hub 3.10.0** or later installed. Follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/grandvx/MazeLingua.git
+   ```git clone https://github.com/grandvx/MazeLingua.git```
 2. Open Unity Hub and click Add, then select the cloned project folder.
 3. Open the project in Unity and ensure that the 3D (Built-In Render Pipeline) is set.
 
