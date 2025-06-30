@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomSmallSkullAdj
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What size is the skull?
+    questionLang: English
+    answerOptions:
+    - Big Skull
+    - Medium Skull
+    - Small Skull
+    correctAnswerIndex: 2
+  - questionText: "\xBFDe qu\xE9 tama\xF1o es la calavera?"
+    questionLang: Spanish
+    answerOptions:
+    - Calavera grande
+    - Calavera mediana
+    - "Calavera peque\xF1a"
+    correctAnswerIndex: 2
+  - questionText: "Quelle est la taille du cr\xE2ne ?"
+    questionLang: French
+    answerOptions:
+    - "Grand cr\xE2ne"
+    - "Cr\xE2ne moyen"
+    - "Petit cr\xE2ne"
+    correctAnswerIndex: 2

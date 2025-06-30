@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomSkull
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: How many skulls do you see in the room?
+    questionLang: English
+    answerOptions:
+    - Three
+    - Seven
+    - Four
+    - Two
+    correctAnswerIndex: 2
+  - questionText: "\xBFCu\xE1ntas calaveras ves en la habitaci\xF3n?"
+    questionLang: Spanish
+    answerOptions:
+    - Tres
+    - Siete
+    - Cuatro
+    - Dos
+    correctAnswerIndex: 2
+  - questionText: "Combien de cr\xE2nes vois-tu dans la pi\xE8ce ?"
+    questionLang: French
+    answerOptions:
+    - Trois
+    - Sept
+    - Quatre
+    - Deux
+    correctAnswerIndex: 2

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomTable
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What furniture do you see in the room?
+    questionLang: English
+    answerOptions:
+    - Chair
+    - Sofa
+    - Shelf
+    - Table
+    correctAnswerIndex: 3
+  - questionText: "\xBFQu\xE9 mueble ves en la habitaci\xF3n?"
+    questionLang: Spanish
+    answerOptions:
+    - Silla
+    - "Sof\xE1"
+    - Estante
+    - Mesa
+    correctAnswerIndex: 3
+  - questionText: "Quel meuble vois-tu dans la pi\xE8ce ?"
+    questionLang: French
+    answerOptions:
+    - Chaise
+    - "Canap\xE9"
+    - "\xC9tag\xE8re"
+    - Table
+    correctAnswerIndex: 3

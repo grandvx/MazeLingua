@@ -1,0 +1,291 @@
+{
+  "rooms": [
+    {
+      "room_name": "RoomColorRed",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "What color do you see?",
+          "answer": "red",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "yellow"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Qué color ves?",
+          "answer": "rojo",
+          "options": [
+            "rojo",
+            "azul",
+            "verde",
+            "amarillo"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Quelle couleur voyez-vous?",
+          "answer": "rouge",
+          "options": [
+            "rouge",
+            "bleu",
+            "vert",
+            "jaune"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomChest",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "What item is in this room?",
+          "answer": "chest",
+          "options": [
+            "chest",
+            "table",
+            "chair",
+            "lamp"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Qué objeto hay en esta habitación?",
+          "answer": "cofre",
+          "options": [
+            "cofre",
+            "mesa",
+            "silla",
+            "lámpara"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Quel objet se trouve dans cette pièce?",
+          "answer": "coffre",
+          "options": [
+            "coffre",
+            "table",
+            "chaise",
+            "lampe"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomSkull",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "How many skulls are in this room?",
+          "answer": "four",
+          "options": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Cuántas calaveras hay en esta habitación?",
+          "answer": "cuatro",
+          "options": [
+            "una",
+            "dos",
+            "tres",
+            "cuatro"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Combien de crânes y a-t-il dans cette pièce?",
+          "answer": "quatre",
+          "options": [
+            "un",
+            "deux",
+            "trois",
+            "quatre"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomTable",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "What furniture do you see in this room?",
+          "answer": "table",
+          "options": [
+            "table",
+            "chair",
+            "sofa",
+            "lamp"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Qué mueble ves en esta habitación?",
+          "answer": "mesa",
+          "options": [
+            "mesa",
+            "silla",
+            "sofá",
+            "lámpara"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Quel meuble voyez-vous dans cette pièce?",
+          "answer": "table",
+          "options": [
+            "table",
+            "chaise",
+            "canapé",
+            "lampe"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomTablePrep",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "What item do you see under the table?",
+          "answer": "pot",
+          "options": [
+            "pot",
+            "book",
+            "shoe",
+            "basket"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Qué objeto ves debajo de la mesa?",
+          "answer": "olla",
+          "options": [
+            "olla",
+            "libro",
+            "zapato",
+            "cesta"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Quel objet voyez-vous sous la table?",
+          "answer": "casserole",
+          "options": [
+            "casserole",
+            "livre",
+            "chaussure",
+            "panier"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomSmallSkullAdj",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "Which one is smaller?",
+          "answer": "skull",
+          "options": [
+            "skull",
+            "chair",
+            "table",
+            "lamp"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿Cuál es más pequeño?",
+          "answer": "calavera",
+          "options": [
+            "calavera",
+            "silla",
+            "mesa",
+            "lámpara"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Lequel est plus petit?",
+          "answer": "crâne",
+          "options": [
+            "crâne",
+            "chaise",
+            "table",
+            "lampe"
+          ]
+        }
+      ]
+    },
+    {
+      "room_name": "RoomArrowLeft",
+      "questions": [
+        {
+          "id": 1,
+          "language": "en",
+          "question": "In which direction does the spear point?",
+          "answer": "left",
+          "options": [
+            "left",
+            "right",
+            "up",
+            "down"
+          ]
+        },
+        {
+          "id": 2,
+          "language": "es",
+          "question": "¿En qué dirección apunta la lanza?",
+          "answer": "izquierda",
+          "options": [
+            "izquierda",
+            "derecha",
+            "arriba",
+            "abajo"
+          ]
+        },
+        {
+          "id": 3,
+          "language": "fr",
+          "question": "Dans quelle direction pointe la lance?",
+          "answer": "gauche",
+          "options": [
+            "gauche",
+            "droite",
+            "haut",
+            "bas"
+          ]
+        }
+      ]
+    }
+  ]
+}
