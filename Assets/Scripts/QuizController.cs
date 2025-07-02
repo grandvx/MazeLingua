@@ -8,6 +8,7 @@ public class QuizController : MonoBehaviour
     public List<Button> answerButtons;
 
     public QuizQuestionSet questionSet; // Initialize questions
+    private bool hasSavedCurrentAttempt = false;
 
     private int currentQuestionIndex;
     private List<Question> questions;
@@ -19,7 +20,8 @@ public class QuizController : MonoBehaviour
 
     private int correctAnswers;
     private int wrongAnswers;
-    private bool currentQuestionAlreadyWrong;
+    private string currentAttemptId;
+    private int uniqueQuestionsAttempted;
 
     [System.Serializable]
 
@@ -45,6 +47,7 @@ public class QuizController : MonoBehaviour
     {
         correctAnswers = 0;
         wrongAnswers = 0;
+        currentAttemptId = System.Guid.NewGuid().ToString(); // ensures uniqueness
 
         npcQuiz = quiz; // Store the correct NPCQuiz instance
         questionSet = newQuestionSet; // Assign the correct question set
@@ -61,6 +64,8 @@ public class QuizController : MonoBehaviour
 
     private void InitializeQuestions()
     {
+        uniqueQuestionsAttempted = 0;
+
         if (questionSet != null)
         {
             Debug.Log($"QuizQuestionSet assigned: {questionSet.name}");
@@ -107,7 +112,6 @@ public class QuizController : MonoBehaviour
 
     private void ShowQuestion(int questionIndex)
     {
-        currentQuestionAlreadyWrong = false; // reset for new question
 
         if (questionIndex >= 0 && questionIndex < questions.Count)
         {
@@ -153,57 +157,65 @@ public class QuizController : MonoBehaviour
             return;
         }
 
-        if (selectedAnswerIndex == correctAnswerIndex)
+        bool isCorrect = selectedAnswerIndex == correctAnswerIndex;
+
+        if (!hasSavedCurrentAttempt)
         {
-            Debug.Log("Correct Answer!");
+            // Save only on the first attempt (correct or wrong)
+            hasSavedCurrentAttempt = true;
 
-            if (!currentQuestionAlreadyWrong)
+            if (isCorrect)
             {
-                correctAnswers++; // Only count correct if not previously wrong
+                correctAnswers++;
             }
+            else
+            {
+                wrongAnswers++;
+                QuizStatsService.Instance.RegisterWrongAnswer();
+            }
+            uniqueQuestionsAttempted++;
+            // Save stats for this first attempt
+            QuizStatsService.Instance.CompleteQuiz(
+                questionSet.name,
+                selectedLanguage,
+                uniqueQuestionsAttempted,
+                correctAnswers,
+                wrongAnswers
+            );
+        }
+        else
+        {
+            // For subsequent tries, just update counters locally but DO NOT save again
+            if (isCorrect)
+                correctAnswers++;
+            else
+                wrongAnswers++;
+        }
 
+        if (isCorrect)
+        {
             currentQuestionIndex++;
 
             if (currentQuestionIndex < questions.Count)
             {
-                // Display the next question
                 ShowQuestion(currentQuestionIndex);
             }
             else
             {
                 Debug.Log("Quiz completed!");
+                hasSavedCurrentAttempt = false;
                 quizCompleted = true;
-
-                // Notify the NPCQuiz that the quiz is complete and correct
                 NotifyNPCQuiz(true);
-
-                QuizStatsService.Instance.CompleteQuiz(
-                    questionSet.name,
-                    selectedLanguage,
-                    questions.Count,
-                    correctAnswers,
-                    wrongAnswers
-                );
-
             }
         }
         else
         {
-            if (!currentQuestionAlreadyWrong)
-            {
-                Debug.Log("Wrong Answer. Marking question as wrong.");
-                wrongAnswers++; // ✅ Count wrong only on first wrong
-                QuizStatsService.Instance.RegisterWrongAnswer(); // Optional for tracking
-                currentQuestionAlreadyWrong = true;
-            }
-            else
-            {
-                Debug.Log("Wrong Answer again, already marked wrong.");
-            }
-
-            NotifyNPCQuiz(false); // Notify that the quiz was answered incorrectly
+            Debug.Log("Wrong Answer. Try again.");
+            NotifyNPCQuiz(false);
         }
     }
+
+
 
     public void CancelQuiz()
     {

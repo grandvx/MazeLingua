@@ -13,6 +13,7 @@ public class QuizStatsService : MonoBehaviour
     private float sessionStartTime;
     private float totalTimeSpent;
     private int totalWrongAnswers = 0;
+    private HashSet<string> incorrectlyAnsweredQuestions = new HashSet<string>();
 
     private void Awake()
     {
@@ -70,14 +71,14 @@ public class QuizStatsService : MonoBehaviour
         {
             { "quizName", stat.quizName },
             { "language", stat.language },
-            { "totalQuestions", stat.totalQuestions },
+            { "totalQuestions", GetSessionTotalQuestions() },
             { "correctAnswers", stat.correctAnswers },
             { "wrongAnswers", stat.wrongAnswers },
             { "timeTaken", stat.timeTaken }
         });
     }
 
-    // ✅ Optionally keep this if CSV export is desired
+    //  Optionally keep this if CSV export is desired
     private void SaveToCSV(QuizStat stat)
     {
         string filePath = Path.Combine(Application.persistentDataPath, "QuizStats.csv");
@@ -90,7 +91,7 @@ public class QuizStatsService : MonoBehaviour
             sb.AppendLine("Timestamp,QuizName,Language,TotalQuestions,CorrectAnswers,WrongAnswers,TimeTakenSeconds");
         }
 
-        sb.AppendLine($"{stat.timestamp},{stat.quizName},{stat.language},{stat.totalQuestions},{stat.correctAnswers},{stat.wrongAnswers},{stat.timeTaken:F2}");
+        sb.AppendLine($"{stat.timestamp},{stat.quizName},{stat.language},{GetSessionTotalQuestions()},{stat.correctAnswers},{stat.wrongAnswers},{stat.timeTaken:F2}");
 
         File.AppendAllText(filePath, sb.ToString());
     }
@@ -100,7 +101,7 @@ public class QuizStatsService : MonoBehaviour
         totalWrongAnswers++;
     }
 
-    // ✅ Accessors for total session stats
+    //  Accessors for total session stats
     public int GetSessionTotalQuestions()
     {
         int total = 0;
@@ -144,6 +145,7 @@ public class QuizStatsService : MonoBehaviour
     {
         return sessionStats.AsReadOnly();
     }
+
 }
 
 public class QuizStat

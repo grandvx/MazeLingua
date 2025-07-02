@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -349,7 +349,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -357,16 +357,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 74
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 74
   m_LastProjectPath: C:\Users\keray\OneDrive\Documents\GitHub\MazeLingua
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 725c0000
-    m_LastClickedID: 23666
-    m_ExpandedIDs: 000000005e5c00006e5c0000745c0000f45d0000
+    m_SelectedIDs: ac600000
+    m_LastClickedID: 24748
+    m_ExpandedIDs: 000000005e5c0000685c0000a6600000c2600000cc600000846e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,7 +489,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e4a7f9ff861efbffe020fbff2c90fbff78a3fefff451ffff5ae7ffff18e8ffff3eeaffff4cebffff4cedffff32fbfffff4ffffffcc5b0000006e00006e6e0000aa6e0000d28e0000ba9b00007c9e0000fea40000
+      m_ExpandedIDs: ba2dfeffe8f5ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -954,9 +954,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.2470093, y: 3.5898018, z: 21.022451}
+    m_Target: {x: 0.9279232, y: 3.2217827, z: 22.080137}
     speed: 2
-    m_Value: {x: 5.2470093, y: 3.5898018, z: 21.022451}
+    m_Value: {x: 0.9279232, y: 3.2217827, z: 22.080137}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1006,9 +1006,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.4105066, y: 0.58544284, z: -0.5391889, w: 0.44499028}
   m_Size:
-    m_Target: 23.90658
+    m_Target: 27.28138
     speed: 2
-    m_Value: 23.90658
+    m_Value: 27.28138
   m_Ortho:
     m_Target: 0
     speed: 2
