@@ -29,11 +29,11 @@ MonoBehaviour:
     - verde
     - amarillo
     correctAnswerIndex: 0
-  - questionText: "\xBFQu\xE9 color ves?"
+  - questionText: Quelle couleur voyez-vous ?
     questionLang: French
     answerOptions:
-    - rojo
-    - azul
-    - verde
-    - amarillo
+    - rouge
+    - bleu
+    - vert
+    - jaune
     correctAnswerIndex: 0

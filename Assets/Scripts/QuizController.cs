@@ -210,6 +210,8 @@ public class QuizController : MonoBehaviour
         }
         else
         {
+            hasSavedCurrentAttempt = true;
+
             Debug.Log("Wrong Answer. Try again.");
             NotifyNPCQuiz(false);
         }
