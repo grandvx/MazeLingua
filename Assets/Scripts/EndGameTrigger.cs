@@ -24,7 +24,6 @@ public class EndGameTrigger : MonoBehaviour
 
         // Option 2: Load an end scene (if you have one)
         // SceneManager.LoadScene("GameOverScene");
-        StatsManager.Instance.EndTimer(); // Just in case
         UnityEngine.SceneManagement.SceneManager.LoadScene("EndStatsScene");
         //         // For testing inside Unity Editor only
         // #if UNITY_EDITOR

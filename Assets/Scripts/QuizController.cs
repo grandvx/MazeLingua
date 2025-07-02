@@ -17,7 +17,11 @@ public class QuizController : MonoBehaviour
 
     private string selectedLanguage;
 
+    private int correctAnswers;
+    private int wrongAnswers;
+
     [System.Serializable]
+
     public class Question
     {
         public string questionText;
@@ -34,17 +38,12 @@ public class QuizController : MonoBehaviour
     public void SetLanguage(string language)
     {
         selectedLanguage = language;
-        //Debug.Log("Language is " + selectedLanguage);
-        // InitializeQuestions();
-        // if (npcQuiz != null)
-        // {
-        //     ShowQuestion(currentQuestionIndex);
-        // }
     }
 
     public void StartQuiz(NPCQuiz quiz, QuizQuestionSet newQuestionSet)
     {
-        StatsManager.Instance.ResetStats();
+        correctAnswers = 0;
+        wrongAnswers = 0;
 
         npcQuiz = quiz; // Store the correct NPCQuiz instance
         questionSet = newQuestionSet; // Assign the correct question set
@@ -53,10 +52,7 @@ public class QuizController : MonoBehaviour
 
         InitializeQuestions(); // Reload questions based on the new set
 
-        StatsManager.Instance.quizName = questionSet.name;
-        StatsManager.Instance.language = selectedLanguage;
-        StatsManager.Instance.totalQuestions = questions.Count;
-        StatsManager.Instance.StartTimer();
+        QuizStatsService.Instance.StartQuizTimer();
 
         ShowQuestion(currentQuestionIndex);
     }
@@ -158,7 +154,7 @@ public class QuizController : MonoBehaviour
         {
             Debug.Log("Correct Answer!");
             currentQuestionIndex++;
-            StatsManager.Instance.correctAnswers++;
+            correctAnswers++;
 
             if (currentQuestionIndex < questions.Count)
             {
@@ -172,13 +168,22 @@ public class QuizController : MonoBehaviour
 
                 // Notify the NPCQuiz that the quiz is complete and correct
                 NotifyNPCQuiz(true);
-                StatsManager.Instance.EndTimer();
+                QuizStatsService.Instance.CompleteQuiz(
+                    questionSet.name,
+                    selectedLanguage,
+                    questions.Count,
+                    correctAnswers,
+                    wrongAnswers
+                );
+
             }
         }
         else
         {
             Debug.Log("Wrong Answer. Try again.");
-            StatsManager.Instance.wrongAnswers++;
+            wrongAnswers++;
+            Debug.Log($"Wrong Answers so far: {wrongAnswers}");
+
             NotifyNPCQuiz(false); // Notify that the quiz was answered incorrectly
         }
     }
