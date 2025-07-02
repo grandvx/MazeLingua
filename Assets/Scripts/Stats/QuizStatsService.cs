@@ -12,6 +12,7 @@ public class QuizStatsService : MonoBehaviour
     private bool sessionStarted = false;
     private float sessionStartTime;
     private float totalTimeSpent;
+    private int totalWrongAnswers = 0;
 
     private void Awake()
     {
@@ -94,6 +95,11 @@ public class QuizStatsService : MonoBehaviour
         File.AppendAllText(filePath, sb.ToString());
     }
 
+    public void RegisterWrongAnswer()
+    {
+        totalWrongAnswers++;
+    }
+
     // ✅ Accessors for total session stats
     public int GetSessionTotalQuestions()
     {
@@ -113,10 +119,7 @@ public class QuizStatsService : MonoBehaviour
 
     public int GetSessionWrongAnswers()
     {
-        int total = 0;
-        foreach (var stat in sessionStats)
-            total += stat.wrongAnswers;
-        return total;
+        return totalWrongAnswers;
     }
 
     public float GetSessionTotalTime()
@@ -129,6 +132,7 @@ public class QuizStatsService : MonoBehaviour
         sessionStats.Clear();
         totalTimeSpent = 0f;
         sessionStartTime = Time.time;
+        totalWrongAnswers = 0;
     }
     public float GetTotalSessionTime()
     {

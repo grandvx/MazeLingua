@@ -19,6 +19,7 @@ public class QuizController : MonoBehaviour
 
     private int correctAnswers;
     private int wrongAnswers;
+    private bool currentQuestionAlreadyWrong;
 
     [System.Serializable]
 
@@ -106,6 +107,8 @@ public class QuizController : MonoBehaviour
 
     private void ShowQuestion(int questionIndex)
     {
+        currentQuestionAlreadyWrong = false; // reset for new question
+
         if (questionIndex >= 0 && questionIndex < questions.Count)
         {
             Question currentQuestion = questions[questionIndex];
@@ -153,8 +156,13 @@ public class QuizController : MonoBehaviour
         if (selectedAnswerIndex == correctAnswerIndex)
         {
             Debug.Log("Correct Answer!");
+
+            if (!currentQuestionAlreadyWrong)
+            {
+                correctAnswers++; // Only count correct if not previously wrong
+            }
+
             currentQuestionIndex++;
-            correctAnswers++;
 
             if (currentQuestionIndex < questions.Count)
             {
@@ -168,6 +176,7 @@ public class QuizController : MonoBehaviour
 
                 // Notify the NPCQuiz that the quiz is complete and correct
                 NotifyNPCQuiz(true);
+
                 QuizStatsService.Instance.CompleteQuiz(
                     questionSet.name,
                     selectedLanguage,
@@ -180,9 +189,17 @@ public class QuizController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Wrong Answer. Try again.");
-            wrongAnswers++;
-            Debug.Log($"Wrong Answers so far: {wrongAnswers}");
+            if (!currentQuestionAlreadyWrong)
+            {
+                Debug.Log("Wrong Answer. Marking question as wrong.");
+                wrongAnswers++; // ✅ Count wrong only on first wrong
+                QuizStatsService.Instance.RegisterWrongAnswer(); // Optional for tracking
+                currentQuestionAlreadyWrong = true;
+            }
+            else
+            {
+                Debug.Log("Wrong Answer again, already marked wrong.");
+            }
 
             NotifyNPCQuiz(false); // Notify that the quiz was answered incorrectly
         }
