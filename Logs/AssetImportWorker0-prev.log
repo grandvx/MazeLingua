@@ -15,7 +15,7 @@ C:/Users/keray/OneDrive/Documents/GitHub/MazeLingua
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54546
+58185
 Successfully changed project path to: C:/Users/keray/OneDrive/Documents/GitHub/MazeLingua
 C:/Users/keray/OneDrive/Documents/GitHub/MazeLingua
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/keray/OneDrive/Documents/GitHub/MazeLingua
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23900] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2456582909 [EditorId] 2456582909 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKT6A7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24884] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 4014495049 [EditorId] 4014495049 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKT6A7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23900] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 2456582909 [EditorId] 2456582909 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKT6A7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24884] Host "[IP] 192.168.1.14 [Port] 0 [Flags] 2 [Guid] 4014495049 [EditorId] 4014495049 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GKT6A7J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 8.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005647 seconds.
-- Loaded All Assemblies, in  0.296 seconds
+Registered in 0.006424 seconds.
+- Loaded All Assemblies, in  0.317 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.224 seconds
-Domain Reload Profiling: 519ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.231 seconds
+Domain Reload Profiling: 546ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (112ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (225ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (231ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (174ms)
+		SetupLoadedEditorAssemblies (171ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,485 +115,56 @@ Domain Reload Profiling: 519ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.503 seconds
-Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.484 seconds
-Domain Reload Profiling: 985ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1092ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (254ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (484ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (534ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (288ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (56.4 KB). Loaded Objects now: 3624.
-Memory consumption went from 120.5 MB to 120.4 MB.
-Total: 2.236500 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.940600 ms  DeleteObjects: 0.081600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28835.772102 seconds.
-  path: Assets/Scripts/LanguageSelectionMenu.cs
-  artifactKey: Guid(c08ba1426fb3a854489fae5260d59bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LanguageSelectionMenu.cs using Guid(c08ba1426fb3a854489fae5260d59bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd4b3c452b36da7040959912becae32') in 0.002788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.389 seconds
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling: 1135ms
-	BeginReloadAssembly (137ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (244ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (748ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (342ms)
+		SetupLoadedEditorAssemblies (410ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (30.5 KB). Loaded Objects now: 3627.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 2.046700 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.787900 ms  DeleteObjects: 0.032800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 94.278764 seconds.
-  path: Assets/Kartograph/Demo/Scenes/Easy.unity
-  artifactKey: Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kartograph/Demo/Scenes/Easy.unity using Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff60cf098dc1c63548394829704bd51') in 0.001722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.467029 seconds.
-  path: Assets/MyPrefabs/Canvas quiz.prefab
-  artifactKey: Guid(438ad1071f602d44ab9986f83866eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyPrefabs/Canvas quiz.prefab using Guid(438ad1071f602d44ab9986f83866eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea4602a640e4cf75bb8e12d3a14e0bd') in 0.029344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
-========================================================================
-Received Import Request.
-  Time since last request: 10.189370 seconds.
-  path: Assets/Kartograph/Demo/Scenes/Easy.unity
-  artifactKey: Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kartograph/Demo/Scenes/Easy.unity using Guid(fd5c4f821f60f504e86f3c46b210de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3758b9268b6547b77812849b62d1b8') in 0.000411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 161.179863 seconds.
-  path: Assets/Scripts/Quiz questions/RoomArrowLeft.asset
-  artifactKey: Guid(d3b1adda6c5a16842be307e46230e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomArrowLeft.asset using Guid(d3b1adda6c5a16842be307e46230e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97042a4f6741af382404ddbbec48766') in 0.001966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 16.543788 seconds.
-  path: Assets/Scripts/Quiz questions/RoomChest.asset
-  artifactKey: Guid(69eff9b236cdb1a419dd689b7cee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomChest.asset using Guid(69eff9b236cdb1a419dd689b7cee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ac013f7af0e98638025a796e75045d') in 0.001045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 91.169524 seconds.
-  path: Assets/Scripts/Quiz questions/RoomChest.asset
-  artifactKey: Guid(69eff9b236cdb1a419dd689b7cee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomChest.asset using Guid(69eff9b236cdb1a419dd689b7cee6aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c61e32dc229c6e8f7bfd3348b1102bd') in 0.001032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 43.343201 seconds.
-  path: Assets/Scripts/Quiz questions/RoomColorRed.asset
-  artifactKey: Guid(912807ce7dc9acb4bb6b3433f2dd0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomColorRed.asset using Guid(912807ce7dc9acb4bb6b3433f2dd0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f031bcec70af7101d3fd3854466897') in 0.001035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 60.222738 seconds.
-  path: Assets/Scripts/Quiz questions/RoomSkull.asset
-  artifactKey: Guid(ae7ac103fad3742488aa1c2925ff284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomSkull.asset using Guid(ae7ac103fad3742488aa1c2925ff284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9176877848731dcc967cc5a85cfcc1') in 0.000902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 17.207460 seconds.
-  path: Assets/Scripts/Quiz questions/RoomSkull.asset
-  artifactKey: Guid(ae7ac103fad3742488aa1c2925ff284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomSkull.asset using Guid(ae7ac103fad3742488aa1c2925ff284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4dd55f410e5bbec15ab41408bdd05b') in 0.000957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 27.086941 seconds.
-  path: Assets/Scripts/Quiz questions/RoomSmallSkullAdj.asset
-  artifactKey: Guid(8054ad6f57027514685d8cf8e8ed4231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomSmallSkullAdj.asset using Guid(8054ad6f57027514685d8cf8e8ed4231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8f8b9ab58942f3c04e70666b56dd00') in 0.000899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 31.644426 seconds.
-  path: Assets/Scripts/Quiz questions/RoomTable.asset
-  artifactKey: Guid(1af92375f3d2c374988d960b74b910a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomTable.asset using Guid(1af92375f3d2c374988d960b74b910a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c225d566f604b38f3a6bd3a695dfbf') in 0.000818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 64.989693 seconds.
-  path: Assets/Scripts/Quiz questions/RoomTablePrep.asset
-  artifactKey: Guid(fbaa0b4b1472d59469b5a521636b74b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/RoomTablePrep.asset using Guid(fbaa0b4b1472d59469b5a521636b74b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9df55b412c4c475c8ffb90de3908699') in 0.001234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.354 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.792 seconds
-Domain Reload Profiling: 1145ms
-	BeginReloadAssembly (128ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (168ms)
-		LoadAssemblies (224ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (793ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (350ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (32.2 KB). Loaded Objects now: 3633.
-Memory consumption went from 116.2 MB to 116.1 MB.
-Total: 2.282100 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.068000 ms MarkObjects: 1.989600 ms  DeleteObjects: 0.050100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.358 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.813 seconds
-Domain Reload Profiling: 1169ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (813ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (30.6 KB). Loaded Objects now: 3636.
-Memory consumption went from 116.4 MB to 116.4 MB.
-Total: 2.070100 ms (FindLiveObjects: 0.154800 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.807200 ms  DeleteObjects: 0.036300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.358 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.786 seconds
-Domain Reload Profiling: 1142ms
-	BeginReloadAssembly (123ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (225ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (256ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (30.5 KB). Loaded Objects now: 3639.
-Memory consumption went from 116.4 MB to 116.4 MB.
-Total: 2.090200 ms (FindLiveObjects: 0.135900 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.864800 ms  DeleteObjects: 0.033000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.343 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.837 seconds
-Domain Reload Profiling: 1178ms
-	BeginReloadAssembly (124ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (219ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (838ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (30.6 KB). Loaded Objects now: 3642.
-Memory consumption went from 116.4 MB to 116.4 MB.
-Total: 2.184000 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.086700 ms MarkObjects: 1.911500 ms  DeleteObjects: 0.036700 ms)
+Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (56.9 KB). Loaded Objects now: 3624.
+Memory consumption went from 120.5 MB to 120.4 MB.
+Total: 2.406700 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.011800 ms  DeleteObjects: 0.102200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -609,9 +180,1593 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 814.473856 seconds.
-  path: Assets/Scripts/Quiz questions/New Quiz Question Set.asset
+  Time since last request: 120198.609503 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable.asset
   artifactKey: Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Quiz questions/New Quiz Question Set.asset using Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9694f9aa40af46a4571eb2ec8562a4fb') in 0.011270 seconds
+Start importing Assets/Scripts/Quiz questions/RoomVegetable.asset using Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef5c3d92cc56db90bcaae2042ada312') in 0.008863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.059710 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable.asset
+  artifactKey: Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable.asset using Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26a1ccff788880e20537b056f42ff92') in 0.000900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.605229 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable.asset
+  artifactKey: Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable.asset using Guid(e3c47200eb6873a4797239143362668c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc8ac65bc7653e956156c3e3d58c1e6') in 0.000876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.159679 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9c7c4d5b369b135dd5cf6841a91317') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.667286 seconds.
+  path: Assets/Scripts/Quiz questions/RoomBookCount.asset
+  artifactKey: Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomBookCount.asset using Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd9d0250f92520c3bebee74f731f31') in 0.001093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 85.245810 seconds.
+  path: Assets/Scripts/Quiz questions/RoomBookCount.asset
+  artifactKey: Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomBookCount.asset using Guid(9062e6a20c840584e88c4dd3006d056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32c2772d079809a82fb3b2da1badd61') in 0.001187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.497680 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f13b6a760c8b1c29c3b328c6a9e373') in 0.000985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.238975 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379f22cc7df60ff02dcff22ee100de97') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.175554 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d386893e30fce5f0c166f240420c378') in 0.001589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.153129 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4ea470a323923cc493e69d1ee362ce') in 0.000960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.839748 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSwordUp.asset
+  artifactKey: Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSwordUp.asset using Guid(ab3de786b5f67d7498713588ef0bd415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d689e424baf4097c834d4f8c8cc34f') in 0.001000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.122714 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be1d7e26373f13b635cadb643b16369') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.264112 seconds.
+  path: Assets/Scripts/Quiz questions/RoomGreenLiquid.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomGreenLiquid.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e33c3ecba0881309492b4c8771741c1') in 0.001099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.833750 seconds.
+  path: Assets/Scripts/Quiz questions/RoomGreenLiquid.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomGreenLiquid.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b33df46d36a7c6611f49415059addf0') in 0.001550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.897434 seconds.
+  path: Assets/Scripts/Quiz questions/RoomGreenLiquid.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomGreenLiquid.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd364ef3e657ca5dc85c0f5b158e44572') in 0.000894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.098084 seconds.
+  path: Assets/Scripts/Quiz questions/RoomGreenLiquid.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomGreenLiquid.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5c474bfdeae524954302e4bd78f516') in 0.001010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.852143 seconds.
+  path: Assets/Scripts/Quiz questions/RoomGreenLiquid.asset
+  artifactKey: Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomGreenLiquid.asset using Guid(de5ea60409bcd0a4cb5f504a9e6feaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed2c2d3f65ae8033c06a1e5e2c28a26') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.637704 seconds.
+  path: Assets/Scripts/Quiz questions/RoomVegetable 1.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomVegetable 1.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3707fff32774512b32638ea23a97f2') in 0.001014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.587161 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17442671eef319acd8d79eb11e574ae') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 49.893077 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea753cb727e65cf438161d6effad8f2d') in 0.000864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.647341 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d8b0ea346739a37efaa6d0f1cd24aa') in 0.001307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.659284 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfea1ade4d7bcfbf5f7983c0bce5f49') in 0.001012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.457868 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73986d850d0f8e93984161c8587fd841') in 0.000864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.715309 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992588a0addb6550f55f6fbff3c274a3') in 0.001363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.809281 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine.asset
+  artifactKey: Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine.asset using Guid(1458ae1511850ac45ba0250c464d932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de38b65975d7df1a7af7ec6552eec3b') in 0.001033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.050212 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine 1.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine 1.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98180d486708531cb8590e2c98530809') in 0.001502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.746605 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d40f522ec6894e693d2bb28acb2fe') in 0.000964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.477006 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dc7bd8b6395c28311e86f53521fd02') in 0.001278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.367387 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bcb09c7e1f05725366a53882d7ab53') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.988130 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8cc4651a64e73ebec0a3ca6d779a76') in 0.001161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.123835 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f32f93afcee346fbdf6519d52dc11') in 0.001120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.101091 seconds.
+  path: Assets/Scripts/Quiz questions/RoomTypeOfKey.asset
+  artifactKey: Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomTypeOfKey.asset using Guid(d3f3f53a6bc07514293b1a27a8fb1f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1868263d15359aed4dd2f1506a174bd3') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.369069 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine 1.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine 1.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e771823ce9acd5f55ba90cc3131cc6a') in 0.000804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.691293 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c1f6c692e8f36e9af2ff3251a6c32') in 0.000867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.811142 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b7d0f31538e3ee76c794bd103038e5') in 0.000973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.144277 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc3047902211783718a40be4c972ab') in 0.001341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.581765 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe081159f07937cade391297a92592c') in 0.000905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.765629 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604e0d854c734690381eafd04a5dd088') in 0.001089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.270875 seconds.
+  path: Assets/Scripts/Quiz questions/RoomRedPot.asset
+  artifactKey: Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomRedPot.asset using Guid(8780e80d9f7eefb4796c798b466f6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aef2f758b51752100ca385a2a0c18c') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.588645 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine 1.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine 1.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8ca1c0110f7487d5b49ede65af1985') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.356247 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42144afc0a15524374306ae84f0b0ef') in 0.001086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.496513 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32d2c30b465241b8cf2de03bc64af3') in 0.000980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.723230 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a7036856e124cbb13a225008fab97f') in 0.001220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.521376 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731f482effb82a435bee1fbef74ade08') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.408351 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec7e906ea6a3a173de8d16bcb50a93b') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.071649 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSkullType.asset
+  artifactKey: Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSkullType.asset using Guid(15e7c697d7385f3428cd5e3c5f464f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3984cda74473f09be3525437a2901469') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.905046 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine 1.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine 1.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d6f719ad15669adf5a43462adb4517') in 0.000874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.616778 seconds.
+  path: Assets/Scripts/Quiz questions/RoomOpenDoor.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomOpenDoor.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbe2a6d9761d0c8c236ee7582767660') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.682446 seconds.
+  path: Assets/Scripts/Quiz questions/RoomOpenDoor.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomOpenDoor.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd470ebbf05c60d94aac594728a9d43') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.222432 seconds.
+  path: Assets/Scripts/Quiz questions/RoomOpenDoor.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomOpenDoor.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aba088f832d5f4a849ac8c0431706ab') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.810144 seconds.
+  path: Assets/Scripts/Quiz questions/RoomOpenDoor.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomOpenDoor.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8e42130a006ea125cb8af7633956ff') in 0.001024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.539460 seconds.
+  path: Assets/Scripts/Quiz questions/RoomOpenDoor.asset
+  artifactKey: Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomOpenDoor.asset using Guid(aa1a0a113328ab8459fc04ad00f3d73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e992f0fdb617b6a197d0377be1470ebf') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.368712 seconds.
+  path: Assets/Scripts/Quiz questions/RoomWine 1.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomWine 1.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7272f4b2d697fb1953d2f4391e6edfa') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.424604 seconds.
+  path: Assets/Scripts/Quiz questions/RoomPencil.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomPencil.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25adfbbe29598aab8d41b0d7a4069818') in 0.001095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.708810 seconds.
+  path: Assets/Scripts/Quiz questions/RoomPencil.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomPencil.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8e3e80a450d87a4731ed87ada4f216') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.314825 seconds.
+  path: Assets/Scripts/Quiz questions/RoomPencil.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomPencil.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57b69af54bbf57ab039a558158d75e2') in 0.000855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.015620 seconds.
+  path: Assets/Scripts/Quiz questions/RoomPencil.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomPencil.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5ff4ff22b50c9d37041d0905e0a7c') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.099011 seconds.
+  path: Assets/Scripts/Quiz questions/RoomPencil.asset
+  artifactKey: Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomPencil.asset using Guid(5546a56049fe51340bae55458694110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec95687645325197ce743044e6e3293') in 0.000824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.281494 seconds.
+  path: Assets/Scripts/Quiz questions/Easy
+  artifactKey: Guid(d1c95c4bd6d61ae4db1efa482ad1d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Easy using Guid(d1c95c4bd6d61ae4db1efa482ad1d433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6f0a2ca3a9447c6f47585011575e21') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.488375 seconds.
+  path: Assets/Scripts/Quiz questions/Easy 1
+  artifactKey: Guid(dc9f68b7ea8dd0f448e524a7f7ba9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Easy 1 using Guid(dc9f68b7ea8dd0f448e524a7f7ba9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a4af557ff0917223f6e338cd4e680e') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.798978 seconds.
+  path: Assets/Scripts/Quiz questions/Medium
+  artifactKey: Guid(dc9f68b7ea8dd0f448e524a7f7ba9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium using Guid(dc9f68b7ea8dd0f448e524a7f7ba9106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb91fda8004455bb40b505dfe35a0f') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.934094 seconds.
+  path: Assets/Scripts/Quiz questions/Medium 1
+  artifactKey: Guid(c39eb1109763ac84bad08bb70d89c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium 1 using Guid(c39eb1109763ac84bad08bb70d89c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94d2731b69fcab5324971c49c404073') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.420492 seconds.
+  path: Assets/Scripts/Quiz questions/hard
+  artifactKey: Guid(c39eb1109763ac84bad08bb70d89c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard using Guid(c39eb1109763ac84bad08bb70d89c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16444a59f9f6173f156a616f998e7ed9') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.960150 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSmallSkullAdj 1.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSmallSkullAdj 1.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16411bf52c16913c4f3234c20ff0097a') in 0.000908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.797470 seconds.
+  path: Assets/Scripts/Quiz questions/RoomSmallSkullAdj 2.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/RoomSmallSkullAdj 2.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d86e045344688d7b12b9b1759ab524') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 90.256071 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3ee8ac91d2927c6d01210ef45c76c1') in 0.001145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.947114 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d060990332296ec4d65dd6ed196a050') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.821296 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8200e70275c64330b7b74a86c8dd2f59') in 0.001424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.195090 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSmallSkullAdj 1.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259cc97b4d3e5f7936fb235d6feefb4a') in 0.001023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.079720 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee53c787efbf08711714094b3e1df08b') in 0.001037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.878925 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(d4cda1eb8b83448489700e8b20cabb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(d4cda1eb8b83448489700e8b20cabb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cb2c72f52ccccb14f7bac792ae0c98') in 0.000824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.989707 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomLockUnlock.asset
+  artifactKey: Guid(d4cda1eb8b83448489700e8b20cabb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomLockUnlock.asset using Guid(d4cda1eb8b83448489700e8b20cabb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f2e9655b142f980b7b36378c23ddbf') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.903776 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e664ba30067a122fd9304c668f7cc5ec') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.198159 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f4e736c6ff049cbf6bd1970598960') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.752761 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc5b5acb6b97672d850c728c2dda758') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.585653 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard.asset
+  artifactKey: Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard.asset using Guid(9b6b65732bc430a4f9a97085d732ee39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea4d086d7b594df4d066ed2ede00e16') in 0.001103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.352784 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e24092be2bd439cae0d24f8deb917a3') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.285827 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc40e43b5a9e58ca3e85e9d42cbbdad') in 0.000917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.477521 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1685cd7078cdac517bac46d9cfcd96') in 0.000941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.804913 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765332e2c6fa002bc5dbe1ac069485bc') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.364587 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0767d7744a0ef5a68cb169ec8c1c99') in 0.001262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.325973 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset
+  artifactKey: Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid.asset using Guid(e5168d6fae17f3540ba35f487d4230ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73869ade0821d50e1728d0fa6afbd986') in 0.001149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.673603 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid 1.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomHotColdLiquid 1.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec14b7ed39ab2e79cbf45aa1cc7b9b0') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.394396 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff828081647a755988688c3c662d851') in 0.000852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.082110 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccad8ab5e79893147c24c68f8b80f7ac') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.030899 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe0aba4841ab766e17f05607c9e2209') in 0.001544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.044366 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b614fe66752b2f34884ad4d895be7b6') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 55.149318 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset
+  artifactKey: Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomMedievalTable.asset using Guid(41f354f5bf4464742bbcf5b8dc391941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b9bdbf5fa64e27f7c6b88bd40c12c') in 0.001059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 92.020737 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713e3e9738a3bd41c7b15108ce8b1602') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.597237 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510abb839086e499bd2adb6c48c0b61f') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.234453 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099c74fac7c0adc1a9bd29959ed4e0a') in 0.000900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.981034 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64e2882139f1a8c83573c0cfd055b0c') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.013488 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38cfdcbc48e4b3f08fd295c3e1a077d') in 0.001043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.861721 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00eb6a2b9c8cd9d617dc1b1b87c9471') in 0.000932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.244249 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset
+  artifactKey: Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomGlassContainers.asset using Guid(8a2fef14048208f4090b192a6b5ce391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed20e7cb7edecb8d28f9dd8fc3095a9a') in 0.001088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 77.011378 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba881bfe08bc2426b520540e4036b36') in 0.001054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.190699 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ba6929a8d1ce607bfb688cdc28c860') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.632056 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560edc6c5686d949408d8bac63f5d59') in 0.000917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.639031 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739ffb284eae7edd272aac1de0e746a5') in 0.001162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.987042 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54232e6a5fecf3d0683b47d427ba0a89') in 0.001109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.357162 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff640d241ef091dd7a68d7a83ff495c8') in 0.000907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.948013 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomSpell.asset
+  artifactKey: Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomSpell.asset using Guid(1fa6797dc2c060d4fa18b971259831c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84593d8219d4f6ad0b44def0845d5ba0') in 0.000947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.483450 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614a04f6e9fb1db9bdc9343e0b38420b') in 0.001190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.972091 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270a16fec45995efc3d140adb8b2119b') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.901894 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323d696ad7669f8a343c7b33615d45f9') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 44.443322 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1aa0569633c7bd88cea72142ae460c') in 0.000826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.861860 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3f4e7011df0b3ebf324ae38d2324de') in 0.000902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.065911 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf2aae47a50c97351bfce1eecb21e07') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.503099 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset
+  artifactKey: Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomJarJug.asset using Guid(996a630ec1dec2e4096500921205f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc3af95f4dd9d7f962ebe7567a5c718') in 0.001573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.019839 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWizard 1.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7447ef077a1a23d6889372a5bbc455') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.228339 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c4382f8a5e61ad8a964b18773cc4b1') in 0.001005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.332311 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5e023d6dff83ee71be42df779f24ab') in 0.000895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.445943 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed89ed729d3c94a84369ede4d1f0f72') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.880970 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce69a336a72ee6c81f720f7733fa09e') in 0.001119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.414169 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed28c176737177e4f6eeb377632696d8') in 0.000884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.785646 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf85584930b08154029f375121143175') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.238616 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker 1.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker 1.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1953ab0da1079f544b174258f2a604c1') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.659007 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838ea8e65a265d4709d4a5e305e1715b') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.330295 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c94dd9d5d001475c8a9ce8922f8a9e') in 0.000942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.188491 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset
+  artifactKey: Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWeaponPicker.asset using Guid(4e3af95c34055fb41aa029219a4354a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027b627889547573168a06cc1328328f') in 0.001249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.476712 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0809ffeee7d3f07ab5a6c9a49c7a6b0e') in 0.001148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.161139 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92b59e5e430aac4d18e74149e9fe57d') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.976181 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset
+  artifactKey: Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter.asset using Guid(8113f5bfde944664a93ba59356a280fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3078a0b7c70d464772e493e3f206c5') in 0.001281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.386938 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomWriteLetter 1.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomWriteLetter 1.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebbb168de83b2eb563f00b053f4b9c5') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.220123 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e71c0942c42fd8163a8715f2c0172f') in 0.000873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.252154 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ce7534818c46d2dab935a996acb096') in 0.000968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.505976 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac10f9b624717f706921d13ae93e72b') in 0.000969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.863841 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b282c888e3b85c86578021c334e1e2d') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.090963 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548b01fb7e293aa0d359b1d5c6660338') in 0.001286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.877144 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a129e5ed450663d5ef19e80d5b9b848') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.195095 seconds.
+  path: Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset
+  artifactKey: Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/Medium/RoomBucketWater.asset using Guid(4984adea23a734e4383215f64b1c6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387e62e323719b6183510ed385bba268') in 0.000918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.838870 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSmallSkullAdj 2.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSmallSkullAdj 2.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d45a6e9ee81d5acd33bd8fd6ccf070') in 0.001162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 86.083975 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a81b2e86ff710506a755b4fb0eb636') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.046768 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a07a829a2b75965359dbe9d43df3505') in 0.000829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.211949 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081a4ff7931d9fca47216dfceaf98f7e') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.656471 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47577030b0cb2ed1a18fb818a1354515') in 0.001119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.454797 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c090d0de56ce1d82de0c4bd78a079d8') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.579811 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298301c010644fba70448854b0b343db') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.812359 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset
+  artifactKey: Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles.asset using Guid(099a8aaf18e9f3a468d358a1b042ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce92a130baf55a05f5b60328d56041') in 0.001135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.498360 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMultipleBottles 1.asset
+  artifactKey: Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMultipleBottles 1.asset using Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a15861ccba99410176db9b530f0e1eb') in 0.001282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.633485 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomRitual.asset
+  artifactKey: Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomRitual.asset using Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea64132d536f7c621c8e1f7781a84f5') in 0.000917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.535083 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomRitual.asset
+  artifactKey: Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomRitual.asset using Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67829f689defe913c53787fe23bafef4') in 0.001056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.859399 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomRitual.asset
+  artifactKey: Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomRitual.asset using Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750fc6707671bffee66f7a48483acfd5') in 0.001579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.292911 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomRitual.asset
+  artifactKey: Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomRitual.asset using Guid(61575bcf2e79485449b94db15bb7712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb319534324ebc3d88164374797e7ec') in 0.001478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.829880 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomRitual 1.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomRitual 1.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b06fd0a938184400f6a5769ec5b7d4') in 0.001135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.729929 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856f03a4c32deeb879340c2e373412ca') in 0.001877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.209624 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3f774c1056e7be06b97c945d754796') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.934042 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3d7ad52450376985ef69154a22640e') in 0.001088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.657704 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b28cf1f60c593a9019215faae470c7') in 0.001150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.479792 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a81a6f6001052371d2406807df4308') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.839871 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset
+  artifactKey: Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs.asset using Guid(d9daf436d1987ee45b751e490862cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305fc09fce617b836b6bc830a958db0a') in 0.001150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.812621 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca352ab88d30845c8152772c9e21795') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.753402 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21792a078a713e38698adf103a50eea5') in 0.000943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.208527 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11090c91c2afeb718f67860c6ac17902') in 0.001595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.013697 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af03a6f7c219f3956ab7fc1788eb70df') in 0.000916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 142.068588 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620d38a9c1a1f9d51f80a34417eb88c1') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.051242 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset
+  artifactKey: Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomQuillandScroll.asset using Guid(224df45dca74999448e97a28db692d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58200b4023b854f61779bb097e0c4816') in 0.000989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 184.174677 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2b062780545f8bc88c848657e3f02') in 0.001023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.024641 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f0dd96193a351077ec145276cefdcf') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.941503 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7fa6525cbf9f3629a38d06cd1977b4') in 0.000907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.045974 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd2b3e12f4fb8c2cc48df701d1ea69c') in 0.001075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.664360 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698878b4e1dbd8034aac3cb7c8ec81a8') in 0.001438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.580877 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dd4b610196794658615221bddd8b36') in 0.001039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.415062 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aee940e58266f210a75f0f54885e599') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.134447 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset
+  artifactKey: Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomPlaceOfStudy.asset using Guid(a883c38368f0ec04892c7e05060a6d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df28b43e08ece0e1235151bd9c6238e') in 0.001098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 77.561490 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4c1da5a9cc31569fd17b2ec538009e') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.665019 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67637fbd641073ec3bb9ff35b6065fa') in 0.001114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.847998 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59474b9ddbe303ebdf82b49225b38085') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.999400 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ba659e104a3a91889f9fc7acfd9013') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.159441 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f779a33628e757338257915dc1d6633') in 0.001163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.151350 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10fea8a2d537111210d8e43a2b15e1a') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.458805 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset
+  artifactKey: Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomDefenseMechanism.asset using Guid(1179763edd9a5b342868dc9490db3335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98da981bfa7fd328d4668f8ec07a2f64') in 0.001077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.037373 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1a44657e97e2a49c02465d0921ad6') in 0.001178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.327433 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aacdaba8fd2933688b5ca6a45cd6a3f') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.985576 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bff8b44fe2fad69fc39fda21820461') in 0.000869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 125.314033 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2d1bf280db0f09921a965baab0cff4') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.637683 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2943d5b52453ec784dbc7c77aaa90e60') in 0.001067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.539329 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f883d5156a88599d6d9f34ab05419e5') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.201759 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892107d9f175b0e750ec086dbbd81a8a') in 0.000999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.555543 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomBeaker.asset
+  artifactKey: Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomBeaker.asset using Guid(30091007fdfd6634ab3e78bd20d469aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8723629cd82ac3ab77b2d61eb22a87ec') in 0.001263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.298516 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7087b3a6c9008d4972b2fd5cd995fd2f') in 0.001214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.840640 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d6dc6a1c1ec8af0c4835b302b4c671') in 0.000901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.254658 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d92ed4e08cac054c55992cd76931a') in 0.001085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.477470 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04563bbe435b6ae1795fb05f93d2c432') in 0.001149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.595629 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3711c6def39855adbdd5d4103d23fc9') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.615775 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset
+  artifactKey: Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomMagicalContext.asset using Guid(3d94e223ca3d40e4ab2cc78df8a28141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd01a3f0e1f7941b6fa7385e3d0e7e4') in 0.001056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.427684 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27020ca9219d14966cbaaa3592f0908d') in 0.000924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.951367 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe8c295f327e11af23b9b0d6be413b5') in 0.000901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.861203 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af48216623964d2be766881df7c3abb') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.548600 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f81e7f886be73ed5711cad3fa809d2') in 0.000914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.253444 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9706383a02f8b3eb4723225660e9bff3') in 0.000851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.327234 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset
+  artifactKey: Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomKeyVariety.asset using Guid(98e923c56bbdb4a40a3cf3651c457976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3437c8b9f959cdc5f16ec23ec92fd1bc') in 0.001094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.717956 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSkullDiffs 1.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e21853b39cf2ddec75a2e5b9644834d') in 0.001191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.294684 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f16438c3ec4c8c4d90cf794e4603c3') in 0.000880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.682522 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17285fcb6286d8ef518633d9900bdd24') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.763597 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf740c349c1a654af179b107209cb6e4') in 0.000985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.436334 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c05f5bf31b6a49f247bc6e8b99f795') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.798152 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c482b3bfa008ba4f097cf91acce733') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.040531 seconds.
+  path: Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset
+  artifactKey: Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Quiz questions/hard/RoomSwordSymbol.asset using Guid(758f8b196b08c154784e440427337531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596298780d946d891bb76ff6bd6678de') in 0.001635 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1

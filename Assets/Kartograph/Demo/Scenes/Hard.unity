@@ -197,7 +197,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 4.622739e+30, z: 6.42e-43, w: 2.7082658e+29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -497,6 +497,11 @@ MonoBehaviour:
   - {fileID: 4811814393726696739, guid: 5ffe2d3f95634e74eb3e77d8f6796494, type: 3}
   - {fileID: 4811814393726696739, guid: 93a214cca61f87a43ac7e66be83406cf, type: 3}
   - {fileID: 6097536851214569045, guid: 9dfb38722664a4140a45d8d9176175f2, type: 3}
+  - {fileID: 6097536851214569045, guid: 3573e3d4daa56314593b5fadc3be0673, type: 3}
+  - {fileID: 4811814393726696739, guid: 8c11e8c4dd1477344a11d9e7beba7680, type: 3}
+  - {fileID: 6097536851214569045, guid: e3cdd8d9b45322e45acd67fe7cd5109a, type: 3}
+  - {fileID: 4811814393726696739, guid: 64da5c1c87e6ba44382741f67cc7747b, type: 3}
+  - {fileID: 4811814393726696739, guid: 9f31213af6f076f41b2cb067a7ea717a, type: 3}
   endPrefabs:
   - {fileID: 6867956003714455516, guid: 1352c06b785da1a409b8f9feba639229, type: 3}
   initialSectionTags:
