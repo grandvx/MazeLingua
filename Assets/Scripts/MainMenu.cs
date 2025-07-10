@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("Quit");
         Application.Quit();
+
+#if UNITY_EDITOR
+    UnityEditor.EditorApplication.isPlaying = false; // Stops play mode in the editor
+#endif
     }
 
     // These are called by the Easy/Medium/Hard buttons

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomPlaceOfStudy
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'Which object indicates that this might be a place of study or
+      spellcasting? '
+    questionLang: English
+    answerOptions:
+    - Meat on a table
+    - Fork and wineglass
+    - 'Open book on a stand '
+    - Wooden bucket
+    correctAnswerIndex: 2
+  - questionText: "\xBFQu\xE9 objeto indica que este podr\xEDa ser un lugar de estudio
+      o de hechicer\xEDa?"
+    questionLang: Spanish
+    answerOptions:
+    - Carne sobre la mesa
+    - Tenedor y copa de vino
+    - 'Libro abierto sobre un soporte '
+    - Cubo de madera
+    correctAnswerIndex: 2
+  - questionText: "Quel objet indique que cet endroit pourrait \xEAtre un lieu d\u2019\xE9tude
+      ou de magie ?"
+    questionLang: French
+    answerOptions:
+    - Viande sur une table
+    - Fourchette et verre de vin
+    - 'Livre ouvert sur un pupitre '
+    - Seau en bois
+    correctAnswerIndex: 2
+  - questionText: "\u03A0\u03BF\u03B9\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF
+      \u03B4\u03B5\u03AF\u03C7\u03BD\u03B5\u03B9 \u03CC\u03C4\u03B9 \u03B1\u03C5\u03C4\u03CC\u03C2
+      \u03BF \u03C7\u03CE\u03C1\u03BF\u03C2 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF
+      \u03BD\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C7\u03CE\u03C1\u03BF\u03C2
+      \u03BC\u03B5\u03BB\u03AD\u03C4\u03B7\u03C2 \u03AE \u03BC\u03B1\u03B3\u03B5\u03AF\u03B1\u03C2;"
+    questionLang: Greek
+    answerOptions:
+    - "\u039A\u03C1\u03AD\u03B1\u03C2 \u03C0\u03AC\u03BD\u03C9 \u03C3\u03B5 \u03C4\u03C1\u03B1\u03C0\u03AD\u03B6\u03B9"
+    - "\u03A0\u03B9\u03C1\u03BF\u03CD\u03BD\u03B9 \u03BA\u03B1\u03B9 \u03C0\u03BF\u03C4\u03AE\u03C1\u03B9
+      \u03BA\u03C1\u03B1\u03C3\u03B9\u03BF\u03CD"
+    - "\u0391\u03BD\u03BF\u03B9\u03C7\u03C4\u03CC \u03B2\u03B9\u03B2\u03BB\u03AF\u03BF
+      \u03C3\u03B5 \u03B1\u03BD\u03B1\u03BB\u03CC\u03B3\u03B9\u03BF "
+    - "\u039E\u03CD\u03BB\u03B9\u03BD\u03BF\u03C2 \u03BA\u03BF\u03C5\u03B2\u03AC\u03C2"
+    correctAnswerIndex: 2

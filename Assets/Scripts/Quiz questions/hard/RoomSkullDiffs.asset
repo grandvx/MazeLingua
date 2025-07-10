@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomSkullDiffs
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What is the main difference between the stone skull and the real
+      one?
+    questionLang: English
+    answerOptions:
+    - The stone skull is made of paper.
+    - 'The stone skull is decorative and symbolic. '
+    - The real skull is heavier.
+    - The real skull has no historical value.
+    correctAnswerIndex: 1
+  - questionText: "\xBFCu\xE1l es la principal diferencia entre el cr\xE1neo de piedra
+      y uno real?"
+    questionLang: Spanish
+    answerOptions:
+    - "El cr\xE1neo de piedra est\xE1 hecho de papel"
+    - "El cr\xE1neo de piedra es decorativo y simb\xF3lico"
+    - "El cr\xE1neo real pesa m\xE1s."
+    - "El cr\xE1neo real no tiene valor hist\xF3rico."
+    correctAnswerIndex: 1
+  - questionText: "Quelle est la principale diff\xE9rence entre le cr\xE2ne en pierre
+      et un cr\xE2ne r\xE9el ?"
+    questionLang: French
+    answerOptions:
+    - "Le cr\xE2ne en pierre est en papier."
+    - "Le cr\xE2ne en pierre est d\xE9coratif et symbolique"
+    - "Le vrai cr\xE2ne est plus lourd"
+    - "Le vrai cr\xE2ne n\u2019a pas de valeur historique."
+    correctAnswerIndex: 1
+  - questionText: "\u03A0\u03BF\u03B9\u03B1 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B7
+      \u03B2\u03B1\u03C3\u03B9\u03BA\u03AE \u03B4\u03B9\u03B1\u03C6\u03BF\u03C1\u03AC
+      \u03B1\u03BD\u03AC\u03BC\u03B5\u03C3\u03B1 \u03C3\u03C4\u03BF \u03C0\u03AD\u03C4\u03C1\u03B9\u03BD\u03BF
+      \u03BA\u03C1\u03B1\u03BD\u03AF\u03BF \u03BA\u03B1\u03B9 \u03C3\u03B5 \u03AD\u03BD\u03B1
+      \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC;"
+    questionLang: Greek
+    answerOptions:
+    - "\u03A4\u03BF \u03C0\u03AD\u03C4\u03C1\u03B9\u03BD\u03BF \u03BA\u03C1\u03B1\u03BD\u03AF\u03BF
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B1\u03C0\u03CC \u03C7\u03B1\u03C1\u03C4\u03AF"
+    - "\u03A4\u03BF \u03C0\u03AD\u03C4\u03C1\u03B9\u03BD\u03BF \u03BA\u03C1\u03B1\u03BD\u03AF\u03BF
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B4\u03B9\u03B1\u03BA\u03BF\u03C3\u03BC\u03B7\u03C4\u03B9\u03BA\u03CC
+      \u03BA\u03B1\u03B9 \u03C3\u03C5\u03BC\u03B2\u03BF\u03BB\u03B9\u03BA\u03CC"
+    - "\u03A4\u03BF \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B9\u03BF \u03B2\u03B1\u03C1\u03CD"
+    - "\u03A4\u03BF \u03C0\u03C1\u03B1\u03B3\u03BC\u03B1\u03C4\u03B9\u03BA\u03CC
+      \u03B4\u03B5\u03BD \u03AD\u03C7\u03B5\u03B9 \u03B9\u03C3\u03C4\u03BF\u03C1\u03B9\u03BA\u03AE
+      \u03B1\u03BE\u03AF\u03B1"
+    correctAnswerIndex: 1

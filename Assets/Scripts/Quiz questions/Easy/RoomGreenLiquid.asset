@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomGreenLiquid
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'What is full of green liquid? '
+    questionLang: English
+    answerOptions:
+    - A book
+    - A book
+    - 'A jar '
+    - A scroll
+    correctAnswerIndex: 2
+  - questionText: "\xBFQu\xE9 est\xE1 lleno de l\xEDquido verde?"
+    questionLang: Spanish
+    answerOptions:
+    - Un libro
+    - Una silla
+    - 'Un frasco '
+    - Un pergamino
+    correctAnswerIndex: 2
+  - questionText: "Qu\u2019est-ce qui est plein de liquide vert ?"
+    questionLang: French
+    answerOptions:
+    - Un livre
+    - Une chaise
+    - 'Un bocal '
+    - Un parchemin
+    correctAnswerIndex: 2
+  - questionText: "\u03A4\u03B9 \u03B5\u03AF\u03BD\u03B1\u03B9 \u03B3\u03B5\u03BC\u03AC\u03C4\u03BF
+      \u03BC\u03B5 \u03C0\u03C1\u03AC\u03C3\u03B9\u03BD\u03BF \u03C5\u03B3\u03C1\u03CC;"
+    questionLang: Greek
+    answerOptions:
+    - "\u0388\u03BD\u03B1 \u03B2\u03B9\u03B2\u03BB\u03AF\u03BF"
+    - "\u039C\u03B9\u03B1 \u03BA\u03B1\u03C1\u03AD\u03BA\u03BB\u03B1"
+    - "\u0388\u03BD\u03B1 \u03B2\u03AC\u03B6\u03BF "
+    - "\u0388\u03BD\u03B1\u03C2 \u03C0\u03AC\u03C0\u03C5\u03C1\u03BF\u03C2"
+    correctAnswerIndex: 2
