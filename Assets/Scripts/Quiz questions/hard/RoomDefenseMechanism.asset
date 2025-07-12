@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomDefenseMechanism
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'If you were to create a defense mechanism using items in this
+      room, which would be most practical? '
+    questionLang: English
+    answerOptions:
+    - 'Shield and sword '
+    - Candle and bottle
+    - Carrot and jug
+    - Scroll and quill
+    correctAnswerIndex: 0
+  - questionText: "Si tuvieras que crear un mecanismo de defensa con objetos de esta
+      sala, \xBFcu\xE1les ser\xEDan los m\xE1s pr\xE1cticos?"
+    questionLang: Spanish
+    answerOptions:
+    - 'Escudo y espada '
+    - Vela y botella
+    - Zanahoria y jarra
+    - Pergamino y pluma
+    correctAnswerIndex: 0
+  - questionText: "Si tu devais cr\xE9er un m\xE9canisme de d\xE9fense avec des objets
+      de cette pi\xE8ce, lesquels seraient les plus pratiques ?"
+    questionLang: French
+    answerOptions:
+    - "Bouclier et \xE9p\xE9e "
+    - Bougie et bouteille
+    - Carotte et cruche
+    - Parchemin et plume
+    correctAnswerIndex: 0
+  - questionText: "\u0391\u03BD \u03AD\u03C0\u03C1\u03B5\u03C0\u03B5 \u03BD\u03B1
+      \u03C6\u03C4\u03B9\u03AC\u03BE\u03B5\u03B9\u03C2 \u03AD\u03BD\u03B1\u03BD \u03B1\u03BC\u03C5\u03BD\u03C4\u03B9\u03BA\u03CC
+      \u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03C3\u03BC\u03CC \u03BC\u03B5 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03C4\u03BF\u03C5 \u03B4\u03C9\u03BC\u03B1\u03C4\u03AF\u03BF\u03C5, \u03C0\u03BF\u03B9\u03B1
+      \u03B8\u03B1 \u03AE\u03C4\u03B1\u03BD \u03C0\u03B9\u03BF \u03C0\u03C1\u03B1\u03BA\u03C4\u03B9\u03BA\u03AC;"
+    questionLang: Greek
+    answerOptions:
+    - "\u0391\u03C3\u03C0\u03AF\u03B4\u03B1 \u03BA\u03B1\u03B9 \u03C3\u03C0\u03B1\u03B8\u03AF "
+    - "\u039A\u03B5\u03C1\u03AF \u03BA\u03B1\u03B9 \u03BC\u03C0\u03BF\u03C5\u03BA\u03AC\u03BB\u03B9"
+    - "\u039A\u03B1\u03C1\u03CC\u03C4\u03BF \u03BA\u03B1\u03B9 \u03C3\u03C4\u03AC\u03BC\u03BD\u03B1"
+    - "\u03A0\u03AC\u03C0\u03C5\u03C1\u03BF\u03C2 \u03BA\u03B1\u03B9 \u03C0\u03AD\u03BD\u03B1"
+    correctAnswerIndex: 0

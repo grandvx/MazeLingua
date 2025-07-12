@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomWriteLetter
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'What might you do with a quill and an inkwell? '
+    questionLang: English
+    answerOptions:
+    - Drink water
+    - Open a door
+    - 'Write a letter '
+    - Cook meat
+    correctAnswerIndex: 2
+  - questionText: "\xBFQu\xE9 haces con una pluma y un tintero?"
+    questionLang: Spanish
+    answerOptions:
+    - Beber agua
+    - Abrir una puerta
+    - 'Escribir una carta '
+    - Cocinar carne
+    correctAnswerIndex: 2
+  - questionText: Que fais-tu avec une plume et un encrier ?
+    questionLang: French
+    answerOptions:
+    - "Boire de l\u2019eau"
+    - Ouvrir une porte
+    - "\xC9crire une lettre "
+    - Cuisiner de la viande
+    correctAnswerIndex: 2
+  - questionText: "\u03A4\u03B9 \u03BA\u03AC\u03BD\u03B5\u03B9\u03C2 \u03BC\u03B5
+      \u03BC\u03B9\u03B1 \u03C0\u03AD\u03BD\u03B1 \u03BA\u03B1\u03B9 \u03AD\u03BD\u03B1
+      \u03BC\u03B5\u03BB\u03B1\u03BD\u03BF\u03B4\u03BF\u03C7\u03B5\u03AF\u03BF;"
+    questionLang: Greek
+    answerOptions:
+    - "\u03A0\u03AF\u03BD\u03B5\u03B9\u03C2 \u03BD\u03B5\u03C1\u03CC"
+    - "\u0391\u03BD\u03BF\u03AF\u03B3\u03B5\u03B9\u03C2 \u03BC\u03B9\u03B1 \u03C0\u03CC\u03C1\u03C4\u03B1"
+    - "\u0393\u03C1\u03AC\u03C6\u03B5\u03B9\u03C2 \u03AD\u03BD\u03B1 \u03B3\u03C1\u03AC\u03BC\u03BC\u03B1 "
+    - "\u039C\u03B1\u03B3\u03B5\u03B9\u03C1\u03B5\u03CD\u03B5\u03B9\u03C2 \u03BA\u03C1\u03AD\u03B1\u03C2"
+    correctAnswerIndex: 2

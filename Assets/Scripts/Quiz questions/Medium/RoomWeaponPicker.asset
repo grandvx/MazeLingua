@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomWeaponPicker
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'Which of these could be used as a weapon? '
+    questionLang: English
+    answerOptions:
+    - Carrot
+    - 'Sword '
+    - Scroll
+    - Beaker
+    correctAnswerIndex: 1
+  - questionText: "\xBFCu\xE1l de estos objetos puede ser usado como arma?"
+    questionLang: Spanish
+    answerOptions:
+    - Zanahoria
+    - 'Espada '
+    - Pergamino
+    - Vaso de laboratorio
+    correctAnswerIndex: 1
+  - questionText: "Lequel de ces objets peut \xEAtre utilis\xE9 comme arme ?"
+    questionLang: French
+    answerOptions:
+    - Carotte
+    - "\xC9p\xE9e "
+    - Parchemin
+    - "B\xE9cher"
+    correctAnswerIndex: 1
+  - questionText: "\u03A0\u03BF\u03B9\u03BF \u03B1\u03C0\u03CC \u03B1\u03C5\u03C4\u03AC
+      \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF \u03BD\u03B1 \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03B7\u03B8\u03B5\u03AF
+      \u03C9\u03C2 \u03CC\u03C0\u03BB\u03BF;"
+    questionLang: Greek
+    answerOptions:
+    - "\u039A\u03B1\u03C1\u03CC\u03C4\u03BF"
+    - "\u03A3\u03C0\u03B1\u03B8\u03AF "
+    - "\u03A0\u03AC\u03C0\u03C5\u03C1\u03BF\u03C2"
+    - "\u0394\u03BF\u03C7\u03B5\u03AF\u03BF"
+    correctAnswerIndex: 1

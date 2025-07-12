@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomBeaker
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'The green liquid in the beaker is most likely... '
+    questionLang: English
+    answerOptions:
+    - A drink
+    - A cleaning product
+    - 'A potion or chemical substance '
+    - Melted wax
+    correctAnswerIndex: 2
+  - questionText: "El l\xEDquido verde en el vaso medidor probablemente sea..."
+    questionLang: Spanish
+    answerOptions:
+    - Una bebida
+    - Un producto de limpieza
+    - "Una poci\xF3n o sustancia qu\xEDmica "
+    - Cera derretida
+    correctAnswerIndex: 2
+  - questionText: "Le liquide vert dans le b\xE9cher est probablement..."
+    questionLang: French
+    answerOptions:
+    - Une boisson
+    - Un produit de nettoyage
+    - 'Une potion ou une substance chimique '
+    - De la cire fondue
+    correctAnswerIndex: 2
+  - questionText: "\u03A4\u03BF \u03C0\u03C1\u03AC\u03C3\u03B9\u03BD\u03BF \u03C5\u03B3\u03C1\u03CC
+      \u03C3\u03C4\u03BF \u03C0\u03BF\u03C4\u03AE\u03C1\u03B9 \u03BC\u03B5\u03C4\u03C1\u03AE\u03C3\u03B5\u03C9\u03C2
+      \u03B5\u03AF\u03BD\u03B1\u03B9 \u03C0\u03B9\u03B8\u03B1\u03BD\u03CC\u03C4\u03B1\u03C4\u03B1..."
+    questionLang: Greek
+    answerOptions:
+    - "\u0388\u03BD\u03B1 \u03C1\u03CC\u03C6\u03B7\u03BC\u03B1"
+    - "\u0388\u03BD\u03B1 \u03BA\u03B1\u03B8\u03B1\u03C1\u03B9\u03C3\u03C4\u03B9\u03BA\u03CC
+      \u03C0\u03C1\u03BF\u03CA\u03CC\u03BD"
+    - "\u0388\u03BD\u03B1 \u03C6\u03AF\u03BB\u03C4\u03C1\u03BF \u03AE \u03C7\u03B7\u03BC\u03B9\u03BA\u03AE
+      \u03BF\u03C5\u03C3\u03AF\u03B1 "
+    - "\u039B\u03B9\u03C9\u03BC\u03AD\u03BD\u03BF \u03BA\u03B5\u03C1\u03AF"
+    correctAnswerIndex: 2

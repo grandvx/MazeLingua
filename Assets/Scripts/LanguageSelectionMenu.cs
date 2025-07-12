@@ -8,6 +8,7 @@ public class LanguageSelectionMenu : MonoBehaviour
     public Button englishButton;
     public Button spanishButton;
     public Button frenchButton;
+    public Button greekButton;
 
     private string selectedLanguage;
 
@@ -24,6 +25,7 @@ public class LanguageSelectionMenu : MonoBehaviour
         englishButton.onClick.AddListener(() => OnLanguageSelected("English"));
         spanishButton.onClick.AddListener(() => OnLanguageSelected("Spanish"));
         frenchButton.onClick.AddListener(() => OnLanguageSelected("French"));
+        greekButton.onClick.AddListener(() => OnLanguageSelected("Greek"));
     }
 
     void OnLanguageSelected(string language)

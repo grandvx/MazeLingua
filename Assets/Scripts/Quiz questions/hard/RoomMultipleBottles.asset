@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomMultipleBottles
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: "What might the presence of multiple potion bottles suggest about
+      the room\u2019s function?"
+    questionLang: English
+    answerOptions:
+    - It is a dining hall.
+    - 'It is used for magical or alchemical practices. '
+    - It is a storage room for drinks
+    - It is a medical ward.
+    correctAnswerIndex: 1
+  - questionText: "\xBFQu\xE9 sugiere la presencia de varias botellas de poci\xF3n
+      sobre la funci\xF3n de la sala?"
+    questionLang: Spanish
+    answerOptions:
+    - Es un comedor.
+    - ". Se utiliza para pr\xE1cticas m\xE1gicas o alqu\xEDmicas"
+    - "Es un almac\xE9n de bebidas"
+    - "Es una enfermer\xEDa."
+    correctAnswerIndex: 1
+  - questionText: "Que sugg\xE8re la pr\xE9sence de plusieurs fioles de potions sur
+      la fonction de la pi\xE8ce ?"
+    questionLang: French
+    answerOptions:
+    - "C\u2019est une salle \xE0 manger"
+    - "Elle est utilis\xE9e pour des pratiques magiques ou alchimiques"
+    - "C\u2019est un lieu de stockage de boissons"
+    - "C\u2019est une infirmerie"
+    correctAnswerIndex: 1
+  - questionText: "\u03A4\u03B9 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF \u03BD\u03B1
+      \u03C5\u03C0\u03BF\u03B4\u03B7\u03BB\u03CE\u03BD\u03B5\u03B9 \u03B7 \u03C0\u03B1\u03C1\u03BF\u03C5\u03C3\u03AF\u03B1
+      \u03C0\u03BF\u03BB\u03BB\u03CE\u03BD \u03C6\u03B9\u03B1\u03BB\u03B9\u03B4\u03AF\u03C9\u03BD
+      \u03BC\u03B5 \u03C6\u03AF\u03BB\u03C4\u03C1\u03B1 \u03B3\u03B9\u03B1 \u03C4\u03B7
+      \u03BB\u03B5\u03B9\u03C4\u03BF\u03C5\u03C1\u03B3\u03AF\u03B1 \u03C4\u03BF\u03C5
+      \u03B4\u03C9\u03BC\u03B1\u03C4\u03AF\u03BF\u03C5;"
+    questionLang: Greek
+    answerOptions:
+    - "\u0395\u03AF\u03BD\u03B1\u03B9 \u03C4\u03C1\u03B1\u03C0\u03B5\u03B6\u03B1\u03C1\u03AF\u03B1"
+    - "\u03A7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03B5\u03AF\u03C4\u03B1\u03B9
+      \u03B3\u03B9\u03B1 \u03BC\u03B1\u03B3\u03B9\u03BA\u03AD\u03C2 \u03AE \u03B1\u03BB\u03C7\u03B7\u03BC\u03B9\u03BA\u03AD\u03C2
+      \u03C0\u03C1\u03B1\u03BA\u03C4\u03B9\u03BA\u03AD\u03C2"
+    - "\u0395\u03AF\u03BD\u03B1\u03B9 \u03B1\u03C0\u03BF\u03B8\u03AE\u03BA\u03B7
+      \u03C0\u03BF\u03C4\u03CE\u03BD."
+    - "\u0395\u03AF\u03BD\u03B1\u03B9 \u03B9\u03B1\u03C4\u03C1\u03B5\u03AF\u03BF."
+    correctAnswerIndex: 1

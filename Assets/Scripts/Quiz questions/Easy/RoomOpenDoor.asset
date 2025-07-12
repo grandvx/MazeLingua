@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomOpenDoor
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What object can open a door?
+    questionLang: English
+    answerOptions:
+    - Meat
+    - Scroll
+    - 'Key '
+    - Spoon
+    correctAnswerIndex: 2
+  - questionText: "\xBFQu\xE9 objeto puede abrir una puerta?"
+    questionLang: Spanish
+    answerOptions:
+    - Carne
+    - Pergamino
+    - 'Llave '
+    - Cuchara
+    correctAnswerIndex: 2
+  - questionText: Quel objet peut ouvrir une porte ?
+    questionLang: French
+    answerOptions:
+    - Viande
+    - Parchemin
+    - "Cl\xE9 "
+    - "Cuill\xE8re"
+    correctAnswerIndex: 2
+  - questionText: "\u03A0\u03BF\u03B9\u03BF \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF
+      \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF \u03BD\u03B1 \u03B1\u03BD\u03BF\u03AF\u03BE\u03B5\u03B9
+      \u03BC\u03B9\u03B1 \u03C0\u03CC\u03C1\u03C4\u03B1;"
+    questionLang: Greek
+    answerOptions:
+    - "\u039A\u03C1\u03AD\u03B1\u03C2"
+    - "\u03A0\u03AC\u03C0\u03C5\u03C1\u03BF\u03C2"
+    - "\u039A\u03BB\u03B5\u03B9\u03B4\u03AF "
+    - "\u039A\u03BF\u03C5\u03C4\u03AC\u03BB\u03B9"
+    correctAnswerIndex: 2

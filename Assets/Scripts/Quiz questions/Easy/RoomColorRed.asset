@@ -37,3 +37,11 @@ MonoBehaviour:
     - vert
     - jaune
     correctAnswerIndex: 0
+  - questionText: "\u03A4\u03B9 \u03C7\u03C1\u03CE\u03BC\u03B1 \u03B2\u03BB\u03AD\u03C0\u03B5\u03C4\u03B5;"
+    questionLang: Grekk
+    answerOptions:
+    - "\u03BA\u03CC\u03BA\u03BA\u03B9\u03BD\u03BF"
+    - "\u03BC\u03C0\u03BB\u03B5"
+    - "\u03C0\u03C1\u03AC\u03C3\u03B9\u03BD\u03BF"
+    - "\u03BA\u03AF\u03C4\u03C1\u03B9\u03BD\u03BF"
+    correctAnswerIndex: 0

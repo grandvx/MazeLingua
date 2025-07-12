@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09cecf493a67554993c0281a2c694c3, type: 3}
+  m_Name: RoomLockUnlock
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: 'Which of these items would most likely be used by a wizard? '
+    questionLang: English
+    answerOptions:
+    - Spoon
+    - 'Crystal ball '
+    - Meat
+    - Shield
+    correctAnswerIndex: 1
+  - questionText: "\xBFCu\xE1l de estos objetos usar\xEDa probablemente un mago?"
+    questionLang: Spanish
+    answerOptions:
+    - Cuchara
+    - 'Bola de cristal '
+    - Carne
+    - Escudo
+    correctAnswerIndex: 1
+  - questionText: "Lequel de ces objets serait le plus utilis\xE9 par un sorcier
+      ?"
+    questionLang: French
+    answerOptions:
+    - "Cuill\xE8re"
+    - 'Boule de cristal '
+    - Viande
+    - Bouclier
+    correctAnswerIndex: 1
+  - questionText: "\u03A0\u03BF\u03B9\u03BF \u03B1\u03C0\u03CC \u03B1\u03C5\u03C4\u03AC
+      \u03C4\u03B1 \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03B1
+      \u03B8\u03B1 \u03C7\u03C1\u03B7\u03C3\u03B9\u03BC\u03BF\u03C0\u03BF\u03B9\u03BF\u03CD\u03C3\u03B5
+      \u03C0\u03B9\u03B8\u03B1\u03BD\u03CC\u03C4\u03B1\u03C4\u03B1 \u03AD\u03BD\u03B1\u03C2
+      \u03BC\u03AC\u03B3\u03BF\u03C2;"
+    questionLang: Greek
+    answerOptions:
+    - "\u039A\u03BF\u03C5\u03C4\u03AC\u03BB\u03B9"
+    - "\u039A\u03C1\u03C5\u03C3\u03C4\u03AC\u03BB\u03BB\u03B9\u03BD\u03B7 \u03C3\u03C6\u03B1\u03AF\u03C1\u03B1 "
+    - "\u039A\u03C1\u03AD\u03B1\u03C2"
+    - "\u0391\u03C3\u03C0\u03AF\u03B4\u03B1"
+    correctAnswerIndex: 1
